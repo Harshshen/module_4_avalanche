@@ -1,4 +1,4 @@
-DegenToken Solidity Contract
+## DegenToken Solidity Contract ##
 This Solidity contract implements a basic ERC20 token named DegenToken. It also includes additional functionalities for redeeming items, setting item prices, and listing available items.
 
 Overview
