@@ -94,5 +94,5 @@ contract DegenToken is ERC20, Ownable {
     }
 
     // Array to store item names for listing
-    string[] public itemNames = ["Potion", "Accelerator","Boots", "Knife"];
+    string[] public itemNames = ["AKM", "SCAR-L","UZI", "AWM"];
 }
