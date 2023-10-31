@@ -19,10 +19,10 @@ contract DegenToken is ERC20, Ownable {
 
     constructor() ERC20("Degen", "DGN") {
         // Set initial item prices
-        itemPrices["Potion"] = 50;
-        itemPrices["Accelerator"] = 100;
-        itemPrices["Boots"] = 100;
-        itemPrices["Knife"] = 10;
+        itemPrices["AKM"] = 50;
+        itemPrices["SCAR-L"] = 100;
+        itemPrices["UZI"] = 50;
+        itemPrices["AWM"] = 100;
     }
 
     function mint(address to, uint256 amount) public onlyOwner {
